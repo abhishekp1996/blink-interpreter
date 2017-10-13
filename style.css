@@ -6,9 +6,7 @@ textarea {
   display: block;
   margin: 5px 0;
 }
-ul + p {
-  color: #e22;
-}
+
 #run {
   text-transform: uppercase;
   background: #f56;

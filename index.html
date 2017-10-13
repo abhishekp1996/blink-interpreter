@@ -11,22 +11,54 @@
   <div class="container">
     
     <h2>Blink.io</h2>
-    <p>Ide to run simple a simple Javascript based interpreter, Blink</p>
+    <p>Ide to run a simple Javascript based interpreter, Blink</p>
     
     <button id='run'>Run</button>
     <textarea name="" id="input" cols="40" rows="10" placeholder="Input Code"></textarea>
     
     <textarea name="" id="output" cols="20" rows="3" placeholder="Output"></textarea>
-    
+    <br>
+    <hr>
     <h3>Official Documentation</h3>
+    <p>Syntax to work with Blink.</p>
+    <ol>
+      <li>Proper spacing is required between keywords.</li> 
+      <li>Each statement should be terminated with semicolon.</li> 
+      <li>Last statement should not be terminated with semicolon.</li>
+    </ol>
+
+    <p>Keywords</p>
     <ul>
-      <li>use: To declare variable. Initialize to 0</li>
-      <li>set: Define value for variable</li>
-      <li>print: To print the output</li>
-      <li>if: if true, evaluates until find 'end'. Else skips</li>
+      <li><strong>use</strong>: The use keyword is used to declare a variable before using it. The variable name follows the identifier rules for Javascript. By default the value is assinged as 0</li>
+      <li><strong>set</strong>: The set keyword is used to set the value of the variable. It is followed by variable name and the value to be assigned.</li>
+      <li><strong>print</strong>: The print keyword followed by variable name prints out in the output area.</li>
+      <li><strong>if / end</strong>: The conditional statements. If condition is true, the lines under it till `end` keyword is found are executed. If condition is false, the statements until `end` are skipped.</li>
     </ul>
-    
-    <p>Take special care of giving space after every element.</p>
+    <hr>
+    <h3>Examples</h3>
+    <p>1. Set a value for a variable</p>
+    <pre>
+    use my_Var;
+    set my_Var 10</pre>
+    <p>This sets the value for `my_Var` as 10.</p>
+    <hr>
+    <p>2. Print age</p>
+    <pre>
+    use age;
+    set age 20;
+    print age</pre>
+    <p>It prints the value of the age variable.</p>
+    <hr>
+    <p>3. If expression</p>
+    <pre>
+    use a;
+    set a 100;
+    if true;
+    set a 50;
+    end;
+    print a;</pre>
+    <p>As the if condition is true, it executes statements upto end. Therefore, it set the value of a as 50</p>
+
     <p>v0.0.2 | Built by @abhishekp1996</p>
   </div>
   
