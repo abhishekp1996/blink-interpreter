@@ -1,5 +1,5 @@
 # blink-lang
-A simple interpreter based on Javascript
+[BLINK](https://abhishekp1996.github.io/blink/index.html). A simple interpreter based on Javascript.
 
 ## Syntax
 Syntax to work with Blink.
