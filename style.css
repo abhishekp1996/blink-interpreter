@@ -1,0 +1,19 @@
+.container {
+  padding-left: 100px;
+}
+
+textarea {
+  display: block;
+  margin: 5px 0;
+}
+ul + p {
+  color: #e22;
+}
+#run {
+  text-transform: uppercase;
+  background: #f56;
+  color: #fff;
+  border: none;
+  outline: none;
+  padding: 5px 10px;
+}
