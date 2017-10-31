@@ -1,3 +1,7 @@
+/*
+  Javascript for blink-interpreter. Made by Abhishek Pathak.
+  Contribute @ https://github.com/abhishekp1996/blink-interpreter
+*/
 var btn = document.getElementById('run');
 btn.addEventListener('click', main);
 
